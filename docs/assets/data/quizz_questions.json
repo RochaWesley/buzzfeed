@@ -1,0 +1,55 @@
+{
+  "title": "Você seria um desenvolvedor disciplinado ou desleixado?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Como você organiza seu código?",
+      "options": [
+        { "id": 1, "name": "Comenta tudo e mantém os métodos organizados", "alias": "B" },
+        { "id": 2, "name": "Mistura tudo em um método gigante", "alias": "A" },
+        { "id": 3, "name": "Escreve rápido e arruma depois (às vezes nunca arruma)", "alias": "A" },
+        { "id": 4, "name": "Segue padrões de codificação e boas práticas", "alias": "B" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "O que você faz ao encontrar um bug?",
+      "options": [
+        { "id": 1, "name": "Cria um plano para corrigir e testa adequadamente", "alias": "B" },
+        { "id": 2, "name": "Dá um jeito rápido sem pensar muito", "alias": "A" },
+        { "id": 3, "name": "Deixa pra próxima versão", "alias": "A" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Como você escreve testes?",
+      "options": [
+        { "id": 1, "name": "Prioriza a criação de testes automatizados", "alias": "B" },
+        { "id": 2, "name": "Testa tudo manualmente e confia nos resultados", "alias": "A" },
+        { "id": 3, "name": "Escreve testes só se o chefe exigir", "alias": "A" }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Como você lida com o versionamento de código?",
+      "options": [
+        { "id": 1, "name": "Sempre comite mudanças com mensagens claras", "alias": "B" },
+        { "id": 2, "name": "Comita tudo de uma vez com mensagens vagas", "alias": "A" },
+        { "id": 3, "name": "Esquece de versionar e perde histórico de alterações", "alias": "A" }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Como você escolhe os nomes de variáveis?",
+      "options": [
+        { "id": 1, "name": "Nomes claros que descrevem sua finalidade", "alias": "B" },
+        { "id": 2, "name": "Variáveis curtas e genéricas, tipo 'x' ou 'data'", "alias": "A" },
+        { "id": 3, "name": "Depende do humor no dia", "alias": "A" }
+      ]
+    }
+  ],
+  "results": {
+    "A": "Você seria um desenvolvedor desleixado, com práticas que podem gerar problemas no futuro!",
+    "B": "Você seria um desenvolvedor disciplinado, seguindo boas práticas e criando código sustentável!"
+  }
+}
